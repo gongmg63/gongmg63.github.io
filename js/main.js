@@ -392,7 +392,7 @@ window.onload = function() {
     for (var i in sections) {
       var section = sections[i];
       //if scrollTop variable is bigger than the top offset of a section in the sections array then 
-      if (scrollTop > section.offset().top){
+      if (scrollTop > section.offset().top + 200){
         var scrolled_id = section.attr('id');
       }
     }
